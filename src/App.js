@@ -1,17 +1,18 @@
 import React from 'react'
-import Navbar from './Routes/Navbar'
-import {BrowserRouter as Router, Route,Switch} from 'react-router-dom'
+import Navbar from './Layouts/Navbar'
 import ChatBot from './Routes/ChatBot'
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 function App() {
   return (
+    <BrowserRouter>
     <div>
-      <Router>
       <Navbar/>
-      <Switch>
-      <Route path ='/Chatbot' component={ChatBot}/>
+      <Switch> 
+    <Route path="/bot" component={ChatBot} />
       </Switch>
-      </Router>
+      
     </div>
+    </BrowserRouter>
   )
 }
 

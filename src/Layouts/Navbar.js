@@ -2,19 +2,19 @@ import React from 'react'
 import '../Styles/Navbar.css'
 import Bot from '../images/Sparrow.png'
 import Bot2 from '../images/favicon.png'
-import {Link,useHistory} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 
 
 function Navbar() {
-  let history = useHistory();
+ /*  let history = useHistory();
   
   const handleRoute = () =>{ 
   
   
   
     console.log('you clicked here')
-  }
+  } */
   return (
     <div>
 
@@ -53,7 +53,7 @@ function Navbar() {
       </ul>
       <div class="bottom-right">
        
-      <img src={Bot} alt='bot' width="70" height="70" onClick={handleRoute} />
+      <img src={Bot} alt='bot' width="70" height="70"/*  onClick={handleRoute} */ />
      
       </div>
     </div>
