@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'montserrat', sans-serif;
     outline: none;
     border: none;
 }
@@ -15,7 +15,9 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
+    
 }
+
 
 nav {
     position: fixed;
@@ -54,15 +56,17 @@ ul {
 }
 
 ul li {
-    padding: 5px 20px;
+    padding: 5px 30px;
     
 }
 
 ul li a {
+    top: 15px;
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1rem;
     text-decoration: none;
     position: relative;
+    
 }
 
 ul li a::before {
@@ -76,10 +80,13 @@ ul li a::before {
     transition: 0.5s;
 }
 
-ul li a:hover::before {
-    background-color: #fff;
-}
+/*  ul li a:hover {
+    background-color:#ECF1FB;
+    padding: 2px;
+    border-radius: 15px;
+}  */
 
+  
 
 /* Bottom right text */
 .text-block {
@@ -92,13 +99,26 @@ ul li a:hover::before {
     padding-left: 80px;
     padding-right: 20px;
   }
-  
+.logo-txt{
+    position: absolute;
+    color: white;
+   top: 30px;
+    left: 36px;
+    padding: 5px 30px;
+}
 
 /* Bottom right text */
 .bottom-right {
     position: absolute;
     bottom: 8px;
     right: 16px;
+    
+  }
+  .chat-btn{
+    transform: scale(1.8);
+    position: absolute;
+    bottom: 8px;
+    right: 30px;
     
   }
   

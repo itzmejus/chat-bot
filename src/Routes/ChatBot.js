@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import ReactDOM from 'react-dom';
 import ChatBot from 'react-simple-chatbot';
 import '../Styles/Chatbot.css'
@@ -43,19 +43,7 @@ function tick() {
               message: 'sorry ',
               trigger: '7',
             },
-            /* {
-              id: '7',
-              Options:[
-                {
-                  value:'yes',label:'yes',trigger:'8'
-                },
-                {
-                  value:'no',label:'no',trigger:'9'
-                }
-      
-              ]
-              
-            }, */
+            
             {
               id: '7',
               message: 'u choose yes ',
@@ -87,4 +75,4 @@ ReactDOM.render(
 }
 
 setInterval(tick, 1000);
-export default ChatBot
+export default ChatBot */
